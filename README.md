@@ -5,5 +5,6 @@ once you pulled the code
 ## after that plase provide private access token for the octokit class in oreder to get the autorization for the github rest api in server.js
 
 
-after that to start the server plase use the command server.js
+after that to start the server plase use the command  
+## node server.js
 
