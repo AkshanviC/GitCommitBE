@@ -3,8 +3,9 @@ const app = express();
 const CORS = require("cors");
 const { Octokit } = require("octokit");
 
+//please provide auth key in the auth parameter below
 const octokit = new Octokit({
-  auth: "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",
+  auth: process.env.KEY, //you have to provide the personal authorization key for accessing github api
 });
 
 app.use(CORS());
