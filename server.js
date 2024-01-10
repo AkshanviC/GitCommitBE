@@ -4,7 +4,7 @@ const CORS = require("cors");
 const { Octokit } = require("octokit");
 
 const octokit = new Octokit({
-  auth: "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",
+  auth: "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",
 });
 
 app.use(CORS());
